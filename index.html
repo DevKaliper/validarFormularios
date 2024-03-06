@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    
+    <form class="formulario">
+        <ul id="errorContainer">
+          
+        </ul>
+        <h2>Registro</h2>
+        <div class="campo">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="campo">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+        </div>
+        <div class="campo">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+        </div>
+        <div class="campo">
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required>
+        </div>
+        <div class="campo">
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="password" required>
+        </div>
+        <div class="campo">
+            <label for="passwordValidado"> Repita contraseña :</label>
+            <input type="password" id="contraseñaValidada" name="passwordValidado" required>
+        </div>
+
+        <button type="submit" id="submit">Enviar</button>
+
+        
+    </form>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
